@@ -18,11 +18,7 @@ export default function Weather() {
                 />
               </div>
               <div className="col-3">
-                <input
-                  type="submit"
-                  value="Search"
-                  class="btn btn-primary w-100"
-                />
+                <input type="submit" value="Search" class="btn btn-secondary" />
               </div>
             </div>
           </form>
@@ -55,9 +51,8 @@ export default function Weather() {
               <div class="wind">Wind: 10 mph</div>
             </div>
           </div>
-
-          <div class="weather-forecast" id="forecast"></div>
         </div>
+        <div class="weather-forecast" id="forecast"></div>
       </div>
     </div>
   );

@@ -16,8 +16,9 @@ function App() {
           {" "}
           Open-Source{" "}
         </a>{" "}
-        by C.S
+        by C.Sneed
       </small>
+      <script src="src/FormatDate.js"></script>
     </div>
   );
 }
