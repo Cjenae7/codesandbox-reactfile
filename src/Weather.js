@@ -4,7 +4,7 @@ import "./App.css";
 export default function Weather() {
   return (
     <div className="container">
-      <div className="weather-app-wrapper">
+      <div className="weather-container">
         <div className="Weather">
           <form id="search-form" class="mb-3">
             <div className="row">
@@ -27,13 +27,11 @@ export default function Weather() {
             </div>
           </form>
           <div className="overview">
-            <h1 id="city">Dallas</h1>
-            <ul>
-              <li>
-                Last Updated: Thursday 9:00<span id="date"></span>
-              </li>
-              <li id="description"></li>
-            </ul>
+            <h1>Dallas</h1>
+            <div class="time">
+              Last Updated: Thursday 9:00<span id="date"></span>
+            </div>
+            <div class="description">Clear</div>
           </div>
           <div className="row">
             <div className="col-6">
@@ -44,20 +42,17 @@ export default function Weather() {
                   id="icon"
                   class="float-left"
                 />
-                <span class="float-left">
+                <span class="float-center">
                   <strong id="temperature">88</strong>
                   <span className="units">
-                    <a href="/">°C</a> | <a href="/">°F</a>
+                    <a href="/">°C</a>
                   </span>
                 </span>
               </div>
             </div>
             <div className="col-6">
-              <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity:%</li>
-                <li>Wind:10 mph</li>
-              </ul>
+              <div class="precip">Precipitation: 0%</div>
+              <div class="wind">Wind: 10 mph</div>
             </div>
           </div>
 

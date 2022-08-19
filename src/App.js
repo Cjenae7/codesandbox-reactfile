@@ -7,6 +7,16 @@ function App() {
   return (
     <div className="App">
       <Weather />
+      <small>
+        {" "}
+        <a
+          href="https://github.com/Cjenae7/codesandbox-reactfile"
+          target="_blank"
+        >
+          {" "}
+          Open-Source by C.S
+        </a>
+      </small>
     </div>
   );
 }

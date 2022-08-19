@@ -6,6 +6,10 @@
 .Weather .overview {
   margin-bottom: 20px;
 }
+.weather-container {
+  padding: 20px 16px 24px;
+  margin: 20px 0;
+}
 .weather-temperature img {
   height: 85px;
   width: 85px;
@@ -24,8 +28,33 @@
   padding-left: 6px;
   margin-top: 6px;
   color: rgb(247, 244, 244);
+  text-decoration: none;
 }
-
+h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+}
+a:link {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.precip,
+.wind {
+  font-weight: 500;
+  line-height: 20px;
+}
+.time,
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
 .weather-temperature.units {
   position: relative;
   font-size: 16px;
