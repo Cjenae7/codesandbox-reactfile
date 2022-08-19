@@ -1,0 +1,79 @@
+.Weather {
+  padding: 20px;
+  border-radius: 1px solid #dadde1;
+  border: 5px;
+}
+.Weather .overview {
+  margin-bottom: 20px;
+}
+.weather-temperature img {
+  height: 85px;
+  width: 85px;
+  display: inline-block;
+}
+.weather-temperature strong {
+  color: rgb(247, 244, 244);
+  font-size: 64px;
+  line-height: 0.5;
+  font-weight: 400;
+  display: inline-block;
+  vertical-align: text-top;
+}
+.units {
+  font-size: 15px;
+  padding-left: 6px;
+  margin-top: 6px;
+  color: rgb(247, 244, 244);
+}
+
+.weather-temperature.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature.active:hover {
+  text-decoration: none;
+}
+.today-forcast {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+.temp {
+  font-size: 18px;
+}
+.btn-primary {
+  background-color: rgb(224, 92, 236);
+}
+
+/*Week 8 Video 3 */
+
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(253, 252, 252);
+}
+
+.weather-forecast-date {
+  font-size: 20px;
+  text-align: match-parent;
+  opacity: 0.5;
+  color: rgb(255, 255, 255);
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forcast-temperatures {
+  font-size: 13px;
+}
+.weather-forcast.row {
+  text-align: center;
+}
