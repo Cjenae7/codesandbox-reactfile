@@ -14,8 +14,9 @@ function App() {
           target="_blank"
         >
           {" "}
-          Open-Source by C.S
-        </a>
+          Open-Source{" "}
+        </a>{" "}
+        by C.S
       </small>
     </div>
   );
