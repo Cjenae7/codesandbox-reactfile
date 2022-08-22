@@ -19,7 +19,11 @@ export default function Weather() {
                 />
               </div>
               <div className="col-3">
-                <input type="submit" value="Search" class="btn btn-secondary" />
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"
+                />
               </div>
             </div>
           </form>
@@ -57,7 +61,7 @@ export default function Weather() {
             <div class="col-sm-2">
               <div class="weather-forecast-date">Sat</div>
               <img
-                src="http://openweather.org/img/wn/03d@2x.png"
+                src="http://openweathermap.org/img/wn/03d@2x.png"
                 alt
                 width="54"
               ></img>
@@ -69,7 +73,7 @@ export default function Weather() {
             <div class="col-sm-2">
               <div class="weather-forecast-date">Sun</div>
               <img
-                src="http://openweather.org/img/wn/03d@2x.png"
+                src="http://openweathermap.org/img/wn/03d@2x.png"
                 alt
                 width="54"
               ></img>
@@ -81,7 +85,7 @@ export default function Weather() {
             <div class="col-sm-2">
               <div class="weather-forecast-date">Mon</div>
               <img
-                src="http://openweather.org/img/wn/03d@2x.png"
+                src="http://openweathermap.org/img/wn/03d@2x.png"
                 alt
                 width="54"
               ></img>
@@ -93,7 +97,7 @@ export default function Weather() {
             <div class="col-sm-2">
               <div class="weather-forecast-date">Tues</div>
               <img
-                src="http://openweather.org/img/wn/03d@2x.png"
+                src="http://openweathermap.org/img/wn/03d@2x.png"
                 alt
                 width="54"
               ></img>
@@ -105,7 +109,7 @@ export default function Weather() {
             <div class="col-sm-2">
               <div class="weather-forecast-date">Wed</div>
               <img
-                src="http://openweather.org/img/wn/03d@2x.png"
+                src="http://openweathermap.org/img/wn/03d@2x.png"
                 alt
                 width="54"
               ></img>

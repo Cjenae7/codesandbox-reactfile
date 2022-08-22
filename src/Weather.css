@@ -3,6 +3,7 @@
   border: thick double #e1dbda;
   border-radius: 30px;
 }
+
 .Weather .overview {
   margin-bottom: 20px;
 }
@@ -46,7 +47,9 @@
 .weather-forecast-temperature-max {
   color: black;
 }
-
+.btn-primary {
+  background-color: rgb(224, 92, 236);
+}
 h1 {
   color: #e5e2e2;
   font-size: 24px;
