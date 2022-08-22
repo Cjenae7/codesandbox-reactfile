@@ -28,6 +28,10 @@
   display: inline-block;
   vertical-align: text-top;
 }
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
 .units {
   font-size: 20px;
   padding-left: 6px;

@@ -45,9 +45,7 @@ export default function Weather() {
                 />
                 <span class="float-center">
                   <strong id="temperature">88</strong>
-                  <span className="units">
-                    <a href="/">°C</a>
-                  </span>
+                  <span className="units">°C</span>
                 </span>
               </div>
             </div>
@@ -120,6 +118,16 @@ export default function Weather() {
             </div>
           </div>
         </div>
+        <small>
+          {" "}
+          <a
+            href="https://github.com/Cjenae7/codesandbox-reactfile"
+            target="_blank"
+          >
+            Open-Source code
+          </a>{" "}
+          by C.Sneed
+        </small>
       </div>
     </div>
   );
