@@ -123,6 +123,7 @@ export default function Weather() {
           <a
             href="https://github.com/Cjenae7/codesandbox-reactfile"
             target="_blank"
+            rel="noreferer"
           >
             Open-Source code
           </a>{" "}
