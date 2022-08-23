@@ -4,12 +4,12 @@ import "./App.css";
 
 export default function Weather() {
   return (
-    <div className="container">
-      <div className="weather-container">
-        <div className="weather-app">
+    <div class="container">
+      <div class="weather-container">
+        <div class="weather-app">
           <form id="search-form" class="mb-3">
-            <div className="row">
-              <div className="col-9">
+            <div class="row">
+              <div class="col-9">
                 <input
                   type="search"
                   placeholder="Type a city.."
@@ -18,7 +18,7 @@ export default function Weather() {
                   autocomplete="off"
                 />
               </div>
-              <div className="col-3">
+              <div class="col-3">
                 <input
                   type="submit"
                   value="Search"
@@ -27,16 +27,16 @@ export default function Weather() {
               </div>
             </div>
           </form>
-          <div className="overview">
+          <div class="overview">
             <h1>Dallas</h1>
             <div class="time">
               Last Updated: Thursday 9:00<span id="date"></span>
             </div>
             <div class="description">Clear</div>
           </div>
-          <div className="row">
-            <div className="col-6">
-              <div className="clearfix weather-temperature">
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                   alt="Clear"
@@ -45,11 +45,11 @@ export default function Weather() {
                 />
                 <span class="float-center">
                   <strong id="temperature">88</strong>
-                  <span className="units">°C</span>
+                  <span class="units">°C</span>
                 </span>
               </div>
             </div>
-            <div className="col-6">
+            <div class="col-6">
               <div class="precip">Precipitation: 0%</div>
               <div class="wind">Wind: 10 mph</div>
             </div>
