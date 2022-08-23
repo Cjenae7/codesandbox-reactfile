@@ -1,7 +1,7 @@
 import React from "react";
 import "./Weather.css";
 import "./App.css";
-import axios from "axios";
+
 export default function Weather() {
   return (
     <div className="container">
@@ -60,7 +60,7 @@ export default function Weather() {
               <div class="weather-forecast-date">Sat</div>
               <img
                 src="http://openweathermap.org/img/wn/03d@2x.png"
-                alt
+                alt=""
                 width="54"
               ></img>
               <div class="weather-forecast-temperatures">
@@ -72,7 +72,7 @@ export default function Weather() {
               <div class="weather-forecast-date">Sun</div>
               <img
                 src="http://openweathermap.org/img/wn/03d@2x.png"
-                alt
+                alt=""
                 width="54"
               ></img>
               <div class="weather-forecast-temperatures">
@@ -84,7 +84,7 @@ export default function Weather() {
               <div class="weather-forecast-date">Mon</div>
               <img
                 src="http://openweathermap.org/img/wn/03d@2x.png"
-                alt
+                alt=""
                 width="54"
               ></img>
               <div class="weather-forecast-temperatures">
@@ -96,7 +96,7 @@ export default function Weather() {
               <div class="weather-forecast-date">Tues</div>
               <img
                 src="http://openweathermap.org/img/wn/03d@2x.png"
-                alt
+                alt=""
                 width="54"
               ></img>
               <div class="weather-forecast-temperatures">
@@ -108,7 +108,7 @@ export default function Weather() {
               <div class="weather-forecast-date">Wed</div>
               <img
                 src="http://openweathermap.org/img/wn/03d@2x.png"
-                alt
+                alt=""
                 width="54"
               ></img>
               <div class="weather-forecast-temperatures">
